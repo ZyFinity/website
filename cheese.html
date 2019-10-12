@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<title>Artisan Food</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/w3.css">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="CSS/styles.css">
+<link rel="stylesheet" href="CSS/video.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+<style>
+.card {
+    height: 10vh;
+	overflow: none;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <img src="images/logo.png" class="w3-left w3-round w3-image w3-opacity-min" width="41">
+    <a href="index.html" class="w3-bar-item w3-button">ARTISAN FOOD & CO</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="cheese.html" class="w3-bar-item w3-button">Cheese</a>
+      <a href="bread.html" class="w3-bar-item w3-button">Bread</a>
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="v-header container">
+    <div class="fullscreen-video-wrap">
+    <video autoplay muted loop id="myVideo">
+		<source src="VIDEO/ArtisanCheeseMaking1.mp4" type="video/mp4">
+    </video>
+    </div>
+</header>
+
+ <!-- About Section -->
+ <div class="w3-row w3-padding-64" id="about">
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+   <img src="IMAGES/artisancheese.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="800" height="750">
+  </div>
+
+  <div class="w3-col m6 w3-padding-large">
+    <h1 class="w3-center">What is Artisan Cheese?</h1><br>
+    <p class="w3-large">Cheese is an adventure! We bring you New Zealand’s widest range
+      of specialty handcrafted cheese to delight your senses.
+      The idea behind Over the Moon Dairy Company was simple: cheese should be adventurous, fun and a bit sophisticated. Founder Sue Arthur believed that in New Zealand, where we produce some of the world’s best quality milk, there are no excuses for making boring cheese.
+      
+      What began as a passion project and a small team in 2007 has become one of the local area’s most loved and recognised brands. Making New Zealand’s widest range of specialty cheeses from four different type of milk, Over the Moon’s products are on the menu in many top restaurants and found in quality delicatessens all over the country – including its own welcoming factory tasting room in Putaruru and its flagship store in Cambridge.
+      
+      Demand for Over the Moon’s innovative range of cheeses has led to an increase in production. With its position as market leader affirmed, the company has never lost sight of its values. Every single cheese is handcrafted, new experiments deliver special edition cheeses to the market regularly and innovation goes hand-in-hand with high standards of technical performance.
+      
+      Along with Over the Moon’s range of products, the company’s passion for cheese keeps growing – as does its swag of New Zealand and international awards.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+  </div>
+  <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="IMAGES/cheeseaward1.jpg" alt="Jane" style="width:100%">
+          <div class="container">
+            <h2>Best Raw Milk Cheese</h2>
+            <p>"So tangy and powerful it almost bites back. Raw Milk Cheese should have complexity, and Keen’s Extra Mature has that in spades." - Johnathan</p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+          <div class="card">
+            <img src="IMAGES/cheeseaward2.jpg" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Best Blue Cheese</h2>
+              <p>"Creamy and nutty, with a blue tang that just won’t quit. Let it melt in the mouth to release its full flavour." - Jaine</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="IMAGES/cheeseaward3.jpg" alt="Jane" style="width:100%">
+              <div class="container">
+                <h2>Best Organic Cheese</h2>
+                <p>Notes of Mushroom mingle with a slight citrus twist. Its yielding texture means it will positively ooze onto your plate for a sinful, decadent experience. - Bob</p>
+              </div>
+            </div>
+          </div>
+    
+    
+<br>
+
+
+<!-- Footer -->
+
+
+
+</body>
+</html>

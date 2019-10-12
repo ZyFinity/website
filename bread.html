@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<title>Artisan Food</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/w3.css">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="CSS/styles.css">
+<link rel="stylesheet" href="CSS/video.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+<style>
+ytubevid {
+  float: center;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <img src="images/logo.png" class="w3-left w3-round w3-image w3-opacity-min" width="41">
+    <a href="index.html" class="w3-bar-item w3-button">ARTISAN FOOD & CO</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="cheese.html" class="w3-bar-item w3-button">Cheese</a>
+      <a href="bread.html" class="w3-bar-item w3-button">Bread</a>
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="v-header container">
+    <div class="fullscreen-video-wrap">
+    <video autoplay muted loop id="myVideo">
+		<source src="VIDEO/breadmakinghead.mp4" type="video/mp4">
+    </video>
+    </div>
+</header>
+
+ <!-- About Section -->
+ <div class="w3-row w3-padding-64" id="about">
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+   <img src="IMAGES/Artisanbread2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="800" height="750">
+  </div>
+
+  <div class="w3-col m6 w3-padding-large">
+    <h1 class="w3-center">What is Artisan Bread?</h1><br>
+    <p class="w3-large">Artisan bread is best described by thinking about the person who makes the bread. An artisan baker is a craftsperson who is trained to the highest ability to mix, ferment, shape and bake a hand crafted loaf of bread. They incorporate the science behind the chemical reactions of the ingredients and use them to create the most optimal environment for the bread to develop.
+
+ 
+
+How to tell True Artisan Bread from one that is called Artisan. Begin by looking at the ingredients. True Artisan Breads usually only include flour, water salt and yeast. Sour based dough’s may not even include yeast in the ingredients. Flavored Artisan breads may list other ingredients like olives, tomatoes, garlic, and herbs.  With these types of breads, all of the ingredients should read as familiar foods. When you choose and Artisan Bread you are buying one of the oldest most basic foods there is. Like centuries ago, these breads didnt need chemicals to make them great and they still don’t today.
+
+True Artisan Bread is like a fine wine. Controlling the fermentation and the action of natural bacteria can produce amazing artisan breads that have flavor profiles from a light delicate flavor to a deep, strong, rustic flavor.  An airy Ciabatta is the perfect sandwich bread just as a rustic, hearty country sourdough makes a great soup complement. Learning to appreciate the differences in Artisan Breads and understanding where each type or ingredient came from, the fermentation process used to make the flavor unique, how much time was put into making them and the different characteristics of taste and texture and color, is almost as much fun as learning about fine wines. Try each type of MultiGrains Bakery True Artisan Breads and find out for yourself which of our True Artisan Breads are your favorites.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+  </div>
+  <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="IMAGES/breadaward1.jpg" style="width:100%">
+          <div class="container">
+            <h2>Best defined bread</h2>
+            <p>"Amazing texture and flavour! Truly amazing and a treat to eat! - Patty</p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+          <div class="card">
+            <img src="IMAGES/breadaward2.jpeg" style="width:100%">
+            <div class="container">
+              <h2>Best Wholegrain bread</h2>
+              <p>"The perfect blend of grain and dough, truly spectacular. - Jeff</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="IMAGES/breadaward3.jpg" style="width:100%">
+              <div class="container">
+                <h2>Best Sour dough</h2>
+                <p>Sour is an understatement for this bread. - Karen</p>
+              </div>
+            </div>
+          </div>
+		  
+    
+    
+<br>
+
+<h2 class="w3-center">Recipe : How to make artisan bread</h2>
+<video width="100%" controls>
+  <source src="VIDEO/breadrecipe.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<br>
+
+<!-- Footer -->
+
+
+
+</body>
+</html>
